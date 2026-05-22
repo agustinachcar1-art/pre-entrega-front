@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — AchcarStore</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+ 
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <i class="fa-brands fa-apple"></i>
+        AchcarStore
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#productos">Modelos</a></li>
+        <li><a href="index.html#features">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li>
+          <a href="#" class="nav-cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge">0</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  #Contacto 
+  <main>
+    <section style="padding-top: 0; padding-bottom: 5rem;">
+      <div class="contacto-wrapper">
+
+        <!-- Info -->
+        <div class="contacto-info">
+          <span class="section-eyebrow">Estamos para ayudarte</span>
+          <h2>Contactanos</h2>
+          <p>
+            ¿Tenés alguna consulta sobre un modelo, precio, envío o garantía?
+            Escribinos y te respondemos en menos de 24 horas.
+          </p>
+          <div class="contacto-datos">
+            <div class="dato-item">
+              <div class="dato-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <p>Teléfono</p>
+                <p>+54 11 3258-1868</p>
+              </div>
+            </div>
+            <div class="dato-item">
+              <div class="dato-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <p>WhatsApp</p>
+                <p>+54 9 11 3258-1868</p>
+              </div>
+            </div>
+            <div class="dato-item">
+              <div class="dato-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <p>Email</p>
+                <p>agustinachcar1@gmail.com</p>
+              </div>
+            </div>
+            <div class="dato-item">
+              <div class="dato-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <p>Dirección</p>
+                <p>9 2871, PBA</p>
+              </div>
+            </div>
+            <div class="dato-item">
+              <div class="dato-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <p>Horario de atención</p>
+                <p>Lun–Vie 9 hs a 18 hs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="contacto-form">
+          <h3>Envianos un mensaje</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Juan" />
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" placeholder="García" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="juan@ejemplo.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="telefono">Teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+54 9 11 ..." />
+          </div>
+
+          <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <select id="asunto" name="asunto">
+              <option value="" disabled selected>Seleccioná un tema</option>
+              <option value="compra">Consulta de compra</option>
+              <option value="precio">Precio y financiación</option>
+              <option value="envio">Envío y seguimiento</option>
+              <option value="garantia">Garantía y devoluciones</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Contanos en qué podemos ayudarte..."></textarea>
+          </div>
+
+          <button type="button" class="btn-primary">
+            <i class="fa-solid fa-paper-plane"></i> Enviar mensaje
+          </button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">
+          <i class="fa-brands fa-apple"></i> iStore
+        </a>
+        <p>Tu tienda de confianza para comprar iPhones originales con garantía y financiación.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#productos">Modelos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Ayuda</h4>
+        <ul>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Política de garantía</a></li>
+          <li><a href="#">Formas de pago</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 AchcarStore. Todos los derechos reservados.</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
